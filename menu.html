@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ff159e243f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="menu.js">
+</head>
+<body>
+    <div id="one">
+    <fieldset id="fr">
+        <h2 id="h">Order food online now</h2>
+        <h2 id="h" style="font-size: 15px;">Discover the best food and drinks in your area</h2>
+    <div id="d">
+        <select name="" id="se" aria-placeholder="all">
+        <option value="" onclick="display('fastfood')">Fast Food</option>
+        <option value="" onclick="display('steak')">Steaks</option>
+        <option value="" onclick="display('chicken')">Chicken</option>
+        <option value="" onclick="display('sweet')">Sweets</option>
+        <option value="" onclick="display('pizza')">Pizza</option>
+        <option value="" onclick="display('noodles')">Noodles</option>
+        <option value="" onclick="display('cold drink')">Cold drinks</option>
+        <option value="" onclick="display('fried rice')">Grill</option>
+        <option value="" onclick="display('chats')">Dosa</option>
+        <option value="" onclick="display('burger')">Burger</option>
+    </select>
+        <input type="search" id="p" placeholder="Food or cafe name">
+        <button id="b" onclick="click()">Find Food</button>
+    </div>
+    </fieldset>
+    <fieldset id="fe">
+        <div>
+        <button id="bu" onclick="display('fastfood')"><i id="two" class="fa-solid fa-burger fa-2x"></i></button>
+        <h2>Fast Food</h2>
+        </div>
+        <div>
+        <button id="bu" onclick="display('steak')"><i class="fa-solid fa-bread-slice fa-2x"></i></button>
+        <h2>Steaks</h2>
+        </div>
+        <div>
+        <button id="bu" onclick="display('chicken')"><i class="fa-solid fa-drumstick-bite fa-2x"></i></button>
+        <h2>Chicken</h2>
+    </div>
+    <div>
+        <button id="bu" onclick="display('pizza')"><i class="fa-solid fa-pizza-slice fa-2x"></i></button>
+        <h2>Pizza</h2>
+    </div>
+    <div>
+        <button id="bu" onclick="display('sweet')"><i class="fa-solid fa-cake-candles fa-2x"></i></button>
+        <h2>Sweets</h2>
+    </div>
+    <div>
+        <button id="bu" onclick="display('noodels')"><i class="fa-solid fa-bowl-food fa-2x"></i></button>
+        <h2>Noodles</h2>
+    </div>
+    <div>
+        <button id="bu" onclick="display('cold drink')"><i class="fa-solid fa-mug-saucer fa-2x"></i></button>
+        <h2>Drinks</h2>
+    </div>
+    <div>
+        <button id="bu" onclick="display('burger')"><i class="fa-solid fa-burger fa-2x"></i></button>
+        <h2>Burger</h2>
+    </div>
+    <div>
+        <button id="bu" onclick="display('fruits')"><i class="fa-brands fa-apple fa-2x"></i></button>
+        <h2>Fruits</h2>
+    </div>
+    </fieldset>
+<div style="display:block;">
+    <div id="di">
+        <button id="thh" class="fastfood">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0cFleHkr83XTp-0AALLRqiAOs7nZxme-OVQ&s" alt="">
+            <h3>Fast Food</h3>
+        </button>
+        <button id="thh" class="steak">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRoXJVGNAtvXg86l6hrKaWKILR7ChqVHvHA&s" alt="">
+            <h3>Steak</h3>
+        </button>
+        <button id="thh" class="chicken">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3-BAnL00FhC-oCifa6enS_t59x5-_9YrhQ&s" alt="">
+        <h3>Chicken</h3>
+        </button>
+        <button id="thh" class="pizza">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg" alt="">
+            <h3>Pizza</h3>
+        </button>
+    </div>
+    <div id="di">
+        <button id="thh" class="sweet">
+            <img src="https://images.picxy.com/cache/2020/7/11/faa2df78d92e3ede55fe0e21886d78dd.jpg "alt="">
+            <h3>Sweets</h3>
+        </button>
+        <button id="thh" class="noodels">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7y59pTUfts0rxR-3RKdH_S_trIWbM8wRxQ&s"alt="">
+        <h3>Noodles</h3>
+        </button>
+        <button id="thh" class="cold drink">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIsRVwX33z-AVj9slU-sukFxFN-TSSM7mfaQ&s"alt="">
+        <h3>juice</h3>
+        </button>
+        <button id="thh" class="burger">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfPHnSzwK4Hlo5taS9JO36XX03MRdcNEu0yw&s"alt="">
+        <h3>Burger</h3>
+        </button>
+    </div>
+    <div id="di">
+        <button id="thh" class="ice cream">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEl_YJLaxAJKS_Vl1hxVae3wo863k-jZv1Dg&s" alt="">
+            <h3>Ice Cream</h3>
+        </button>
+        <button id="thh" class="rice">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBOiKcT8qFTupWNcgWeOjFye962xDTMNVtQ&s" alt="">
+        <h3>Rice</h3>
+        </button>
+        <button id="thh" class="pani poori">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4jMdj4ICOXtyBdP18BO1A9Xvm9q1xZNLPQ&s" alt="">
+    <h3>Pani Poori</h3>    
+    </button>
+        <button id="thh" class="fried rice">
+            <img src="https://fullofplants.com/wp-content/uploads/2020/05/sweet-and-sour-spicy-thai-fried-rice-easy-vegan-meal-with-vegetables-thumb-500x500.jpg"alt="">
+            <h3>Fried Rice</h3>
+        </button>
+    </div>
+    <div id="di">
+        <button id="thh" class="pie">
+            <img src="https://th.bing.com/th/id/OIP.21XG1xTLOPD5KUE5jbEtUQHaGU?w=217&h=185&c=7&r=0&o=5&dpr=1.1&pid=1.7"alt="">
+            <h3>Pie</h3>
+        </button>
+        <button id="thh" class="sand witch">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTunRkxyyZ-p7JQyCNek1J1t9h7J2vhp5MwJA&s" alt="">
+        <h3>Snadwitch</h3>
+        </button>
+        <button id="thh" class="momos">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwy116ARJKj7Kg0EWpGLwGf6rwO-59dnGq-Q&s" alt="">
+            <h3>Momos</h3>
+        </button>
+        <button id="thh" class="biriyani">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqu_eYGrtF3fOtqz4u_iRpMJJ65g9jdfg9Xw&s"alt="">
+            <h3>Biriyani</h3>
+        </button>
+    </div>
+    <div id="di">
+        <button id="thh" class="rools">
+            <img src="https://ts3.mm.bing.net/th?id=OIP.ftYyDUCbXleMsadFbsYDIgHaLH&pid=15.1"alt="">
+            <h3>Rools</h3>
+        </button>
+        <button id="thh" class="soup">
+            <img src="https://th.bing.com/th/id/OIP.-eDt7qVM-EdN2U9sv4C5IwHaHa?w=234&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"alt="">
+            <h3>Soup</h3>
+        </button>
+        <button id="thh" class="cup cake">
+            <img src="https://th.bing.com/th/id/OIP.CuknOdOIgX-U6jRdfdzpHwHaE8?w=246&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"alt="">
+            <h3>Cup cakes</h3>
+        </button>
+        <button id="thh" class="chats">
+            <img src="https://th.bing.com/th/id/OIP.8pWBmKdUrS3VhGtC6U5YiQHaFj?w=238&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"alt="">
+            <h3>Chats</h3>
+        </button>
+        </div>
+</div>
+</div>
+</body>
+</html>
